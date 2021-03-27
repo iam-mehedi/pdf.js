@@ -41,7 +41,7 @@
             zoom:1,
         }
 
-        pdfjsLib.getDocument("/sample.pdf").then(pdf => {
+        pdfjsLib.getDocument("http://www.africau.edu/images/default/sample.pdf").then(pdf => {
             myState.pdf = pdf
             render()
         })
